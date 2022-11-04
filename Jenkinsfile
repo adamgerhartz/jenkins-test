@@ -6,5 +6,6 @@ properties([
 
 node {
     checkout scm
+    sh "chmod +x ${WORKSPACE}/shell.sh"
     sh("${WORKSPACE}/shell.sh")
 }
