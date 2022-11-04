@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo -e "NAME=${NAME}"
+echo -e "NAME=$NAME"
